@@ -27,7 +27,7 @@ const char *estado_como_texto(EstadoLeitura estado) {
         case LEITURA_INVALIDA:
             return "INVALIDA";
         case LEITURA_NORMAL:
-            return LEITURA_NORMAL;
+            return "NORMAL";
         case LEITURA_ALERTA:
             return "ALERTA";
     }
