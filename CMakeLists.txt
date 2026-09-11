@@ -1,11 +1,6 @@
-cmake_minimum_required(VERSION 3.10)
-project(unt C)
+cmake_minimum_required(VERSION 4.3)
+project(POO2)
 
-set(CMAKE_C_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(unt
-        src/main.c
-        src/monitor.c
-)
-
-target_include_directories(unt PRIVATE include)
+add_executable(POO2 main.cpp)
