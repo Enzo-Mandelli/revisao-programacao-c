@@ -129,14 +129,6 @@ double lista_media(const NoLeitura *inicio, bool *possui_dados) {
     return quantidade > 0 ? soma / quantidade : 0.0;
 }
 
-double lista_media(const NoLeitura *inicio, bool *possui_dados) {
-    /* ETAPA 03: calcule a média sem acessar um ponteiro nulo. */
-    (void)inicio;
-    if (possui_dados != NULL) {
-        *possui_dados = false;
-    }
-    return 0.0;
-}
 
 void lista_liberar(NoLeitura **inicio) {
     if (inicio == NULL) {
