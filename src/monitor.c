@@ -184,7 +184,7 @@ bool salvar_leituras(const char *caminho, const NoLeitura *inicio) {
         return false;
     }
 
-    FILE *arquivo = fopen(caminho, w);
+    FILE *arquivo = fopen(caminho, "w");
     if (arquivo == NULL) {
         return false;
     }
